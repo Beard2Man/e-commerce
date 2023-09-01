@@ -216,5 +216,32 @@
       "Information": "",
       "category": "Clothes"
     }
+  ],
+  "tabs": [
+    {
+      "id": "1",
+      "name": "Helmets",
+      "url": "/helmets"
+    },
+    {
+      "id": "2",
+      "name": "Jackets",
+      "url": "/jackets"
+    },
+    {
+      "id": "3",
+      "name": "Pants",
+      "url": "/pants"
+    },
+    {
+      "id": "4",
+      "name": "Contact",
+      "url": "/contact"
+    },
+    {
+      "id": "5",
+      "name": "Forum",
+      "url": "/forum"
+    }
   ]
 }
