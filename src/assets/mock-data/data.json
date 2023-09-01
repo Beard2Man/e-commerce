@@ -1,0 +1,220 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "GHelo",
+      "price": "25",
+      "Information": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas voluptatum officiis quibusdam et, vel adipisci iure! Molestiae cumque esse architecto iure asperiores perferendis eveniet pariatur saepe autem! Placeat, ipsa provident.",
+      "category": "Helmets",
+      "photos": [
+        "https://i.imgur.com/JkQCz1X.jpeg",
+        "https://i.imgur.com/xzwsvem.jpeg",
+        "https://i.imgur.com/7X9CBFf.jpeg",
+        "https://i.imgur.com/wwC9cI8.jpeg",
+        "https://i.imgur.com/geEZWy7.jpeg"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Hello",
+      "price": "123",
+      "Information": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas voluptatum officiis quibusdam et, vel adipisci iure! Molestiae cumque esse architecto iure asperiores perferendis eveniet pariatur saepe autem! Placeat, ipsa provident.",
+      "category": "Helmets",
+      "photos": [
+        "https://i.imgur.com/pQGvenq.jpeg",
+        "https://i.imgur.com/reCPslE.jpeg",
+        "https://i.imgur.com/48MfCWo.jpeg",
+        "https://i.imgur.com/iW6gBFn.jpeg",
+        "https://i.imgur.com/8hlGsKS.jpeg"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Hello",
+      "price": "1563",
+      "Information": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas voluptatum officiis quibusdam et, vel adipisci iure! Molestiae cumque esse architecto iure asperiores perferendis eveniet pariatur saepe autem! Placeat, ipsa provident.",
+      "category": "Helmets",
+      "photos": [
+        "https://i.imgur.com/MTlX40J.jpeg",
+        "https://i.imgur.com/8JK51Na.jpeg",
+        "https://i.imgur.com/D1vypl7.jpeg",
+        "https://i.imgur.com/hKGTL8T.jpeg"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "GHelo",
+      "price": "25",
+      "Information": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas voluptatum officiis quibusdam et, vel adipisci iure! Molestiae cumque esse architecto iure asperiores perferendis eveniet pariatur saepe autem! Placeat, ipsa provident.",
+      "category": "Helmets",
+      "photos": [
+        "https://i.imgur.com/CdCCpio.jpeg",
+        "https://i.imgur.com/y3Xsdml.jpeg",
+        "https://i.imgur.com/Pg6SVbw.jpeg",
+        "https://i.imgur.com/8PFSaFb.jpeg"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Hello",
+      "price": "123",
+      "Information": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas voluptatum officiis quibusdam et, vel adipisci iure! Molestiae cumque esse architecto iure asperiores perferendis eveniet pariatur saepe autem! Placeat, ipsa provident.",
+      "category": "Helmets",
+      "photos": [
+        "https://i.imgur.com/9tFKenT.jpeg",
+        "https://i.imgur.com/AOHrdgN.jpeg",
+        "https://i.imgur.com/RY9PASG.jpeg",
+        "https://i.imgur.com/JpnCfzt.jpeg"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Hello",
+      "price": "1563",
+      "Information": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas voluptatum officiis quibusdam et, vel adipisci iure! Molestiae cumque esse architecto iure asperiores perferendis eveniet pariatur saepe autem! Placeat, ipsa provident.",
+      "category": "Helmets",
+      "photos": [
+        "https://i.imgur.com/Two5yff.jpeg",
+        "https://i.imgur.com/AHkyjm7.jpeg",
+        "https://i.imgur.com/VDO3WOU.jpeg",
+        "https://i.imgur.com/LIkFfRS.jpeg",
+        "https://i.imgur.com/SJ3tAyW.jpeg"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "GHelo",
+      "price": "25",
+      "Information": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas voluptatum officiis quibusdam et, vel adipisci iure! Molestiae cumque esse architecto iure asperiores perferendis eveniet pariatur saepe autem! Placeat, ipsa provident.",
+      "category": "Helmets",
+      "photos": [
+        "https://i.imgur.com/wqi1na5.jpeg",
+        "https://i.imgur.com/zpW14Z8.jpeg",
+        "https://i.imgur.com/okbBbzN.jpeg",
+        "https://i.imgur.com/IhTvRgX.jpeg"
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Hello",
+      "price": "123",
+      "Information": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas voluptatum officiis quibusdam et, vel adipisci iure! Molestiae cumque esse architecto iure asperiores perferendis eveniet pariatur saepe autem! Placeat, ipsa provident.",
+      "category": "Helmets",
+      "photos": [
+        "https://i.imgur.com/x0o4iCO.jpeg",
+        "https://i.imgur.com/PXYIvUF.jpeg",
+        "https://i.imgur.com/mte1ndP.jpeg",
+        "https://i.imgur.com/FeQMd8m.jpeg"
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Hello",
+      "price": "1563",
+      "Information": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas voluptatum officiis quibusdam et, vel adipisci iure! Molestiae cumque esse architecto iure asperiores perferendis eveniet pariatur saepe autem! Placeat, ipsa provident.",
+      "category": "Helmets",
+      "photos": [
+        "https://i.imgur.com/v6qeqeG.jpeg",
+        "https://i.imgur.com/xeXBMBK.jpeg",
+        "https://i.imgur.com/ADXy1zC.jpeg",
+        "https://i.imgur.com/g7wyGhT.jpeg"
+      ]
+    },
+    {
+      "id": "10",
+      "name": "GHelo",
+      "price": "25",
+      "Information": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas voluptatum officiis quibusdam et, vel adipisci iure! Molestiae cumque esse architecto iure asperiores perferendis eveniet pariatur saepe autem! Placeat, ipsa provident.",
+      "category": "Helmets",
+      "photos": [
+        "https://i.imgur.com/YR3rGzZ.png",
+        "https://i.imgur.com/uERtWTi.png",
+        "https://i.imgur.com/haDYfrN.png"
+      ]
+    },
+    {
+      "id": "11",
+      "name": "GHelo",
+      "price": "25",
+      "Information": "",
+      "category": "Pants"
+    },
+    {
+      "id": "12",
+      "name": "Hello",
+      "price": "123",
+      "Information": "",
+      "category": "Pants"
+    },
+    {
+      "id": "13",
+      "name": "Hello",
+      "price": "1563",
+      "Information": "",
+      "category": "Pants"
+    },
+    {
+      "id": "14",
+      "name": "GHelo",
+      "price": "25",
+      "Information": "",
+      "category": "Pants"
+    },
+    {
+      "id": "15",
+      "name": "Hello",
+      "price": "123",
+      "Information": "",
+      "category": "Pants"
+    },
+    {
+      "id": "16",
+      "name": "Hello",
+      "price": "1563",
+      "Information": "",
+      "category": "Pants"
+    },
+    {
+      "id": "17",
+      "name": "GHelo",
+      "price": "25",
+      "Information": "",
+      "category": "Clothes"
+    },
+    {
+      "id": "18",
+      "name": "Hello",
+      "price": "123",
+      "Information": "",
+      "category": "Clothes"
+    },
+    {
+      "id": "19",
+      "name": "Hello",
+      "price": "1563",
+      "Information": "",
+      "category": "Clothes"
+    },
+    {
+      "id": "20",
+      "name": "GHelo",
+      "price": "25",
+      "Information": "",
+      "category": "Clothes"
+    },
+    {
+      "id": "21",
+      "name": "Hello",
+      "price": "1563",
+      "Information": "",
+      "category": "Clothes"
+    },
+    {
+      "id": "22",
+      "name": "GHelo",
+      "price": "25",
+      "Information": "",
+      "category": "Clothes"
+    }
+  ]
+}
