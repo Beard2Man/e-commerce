@@ -33,6 +33,7 @@ function Navigation() {
       <a href="/" className="logo">
         <img src={Logo} alt="Logo" />
       </a>
+
       <div className={`nav-links ${isMenuOpen ? "mobile-menu" : ""}`}>
         <ul>
           {tabs.map((tab) => (
