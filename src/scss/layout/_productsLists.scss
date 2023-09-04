@@ -1,0 +1,22 @@
+@import "../utils/mixins.scss";
+@import "../utils/variables";
+
+.mainProductContainer {
+  .main {
+    .productContainer {
+      width: 33%;
+      display: flex;
+      ul {
+        li {
+          text-align: center;
+          margin: 30px 45px;
+          border: 1px solid lightslategray;
+          border-radius: 10px;
+          img {
+            width: 300px;
+          }
+        }
+      }
+    }
+  }
+}

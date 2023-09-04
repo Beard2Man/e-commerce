@@ -1,0 +1,8 @@
+@import "../utils/variables";
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: $primary-colour;
+}
