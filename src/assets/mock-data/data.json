@@ -2,7 +2,7 @@
   "products": [
     {
       "id": "1",
-      "name": "GHelo",
+      "name": "BELL HELMET BULLITT  VINTAGE COLLECTION STRIPES",
       "price": "25",
       "Information": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas voluptatum officiis quibusdam et, vel adipisci iure! Molestiae cumque esse architecto iure asperiores perferendis eveniet pariatur saepe autem! Placeat, ipsa provident.",
       "category": "Helmets",
@@ -123,7 +123,7 @@
     {
       "id": "10",
       "name": "GHelo",
-      "price": "25",
+      "price": "25.00",
       "Information": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas voluptatum officiis quibusdam et, vel adipisci iure! Molestiae cumque esse architecto iure asperiores perferendis eveniet pariatur saepe autem! Placeat, ipsa provident.",
       "category": "Helmets",
       "photos": [
@@ -134,8 +134,8 @@
     },
     {
       "id": "11",
-      "name": "GHelo",
-      "price": "25",
+      "name": "BELL HELMET BULLITT  VINTAGE COLLECTION STRIPES",
+      "price": "250.00",
       "Information": "",
       "category": "Pants",
       "photos": [
@@ -148,7 +148,7 @@
     },
     {
       "id": "12",
-      "name": "Hello",
+      "name": "BELL HELMET BULLITT  VINTAGE COLLECTION STRIPES",
       "price": "123",
       "Information": "",
       "category": "Pants",
@@ -162,7 +162,7 @@
     },
     {
       "id": "13",
-      "name": "Hello",
+      "name": "BELL HELMET BULLITT  VINTAGE COLLECTION STRIPES",
       "price": "1563",
       "Information": "",
       "category": "Pants",

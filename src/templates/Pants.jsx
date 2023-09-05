@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
+import "../scss/base/_buttons.scss";
 import "../scss/base/_global.scss";
 import "../scss/layout/_productsLists.scss";
 
@@ -24,7 +25,10 @@ function Pants() {
                 <li hey={product.id}>
                   <link to={`/product/${product.id}`} />
                   <img src={product.photos} alt={product.name} />
-                  {product.name}-{product.price}
+                  <h3>{product.name}</h3>
+                  <p>${product.price}</p>
+
+                  <button className="addToCard">Add to card</button>
                 </li>
               ))}
             </ul>
