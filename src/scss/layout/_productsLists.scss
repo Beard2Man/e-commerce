@@ -2,12 +2,15 @@
 @import "../utils/variables";
 
 .service-container {
+  .containerName {
+    margin-top: 20px;
+    font-size: 50px;
+    font-family: $font-family;
+  }
   .mainProductContainer {
     .row {
     }
     .main {
-      padding-top: 30px;
-
       .productContainer {
         ul {
           list-style-type: none;
@@ -46,9 +49,24 @@
             }
 
             img {
-              height: 250px;
-              width: 250px;
+              height: 240px;
+              width: 240px;
             }
+
+            .d {
+              position: relative;
+              display: inline-block;
+            }
+            .d .img-back {
+              top: 0;
+              left: 0;
+              position: absolute;
+              display: none;
+            }
+          }
+          .d:hover .img-back {
+            display: inline;
+            background-color: white;
           }
         }
       }
@@ -57,28 +75,21 @@
 
   @media all and (min-width: 992px) {
     .productContainer ul li {
-      width: 32%;
+      width: 25%;
+      margin: 30px auto;
     }
   }
 
   @media all and (max-width: 992px) {
-    .productContainer {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
     .productContainer ul li {
-      width: 49%;
+      width: 35%;
+      margin: 30px auto;
     }
   }
 
   @media all and (max-width: 815px) {
-    .productContainer {
-      ul {
-        li {
-          width: 99%;
-        }
-      }
+    .productContainer ul li {
+      width: 66%;
     }
   }
 }

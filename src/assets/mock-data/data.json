@@ -167,11 +167,10 @@
       "Information": "",
       "category": "Pants",
       "photos": [
-        "https://i.imgur.com/07VKXm6.jpg",
-        "https://i.imgur.com/QyhesLA.png",
-        "https://i.imgur.com/MJMdPx7.png",
+        "https://i.imgur.com/ulKc9xg.png",
         "https://i.imgur.com/PH5q3md.png",
-        "https://i.imgur.com/ulKc9xg.png"
+        "https://i.imgur.com/MJMdPx7.png",
+        "https://i.imgur.com/QyhesLA.png"
       ]
     },
     {
@@ -315,6 +314,33 @@
       "id": "4",
       "name": "Contact",
       "url": "/contact"
+    },
+    {
+      "id": "5",
+      "name": "Forum",
+      "url": "/forum"
+    }
+  ],
+  "footer": [
+    {
+      "id": "1",
+      "name": "Privacy Policy",
+      "url": "/privacypolicy"
+    },
+    {
+      "id": "2",
+      "name": "Returns and complaints",
+      "url": "/returnsandcomplaints"
+    },
+    {
+      "id": "3",
+      "name": "Payment and delivery",
+      "url": "/paymentanddelivery"
+    },
+    {
+      "id": "4",
+      "name": "Terms and Conditions",
+      "url": "/termsandconditions"
     },
     {
       "id": "5",

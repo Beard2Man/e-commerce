@@ -1,0 +1,47 @@
+@import "../utils/variables";
+@import "../utils/mixins";
+
+.footer {
+  margin-top: 100px;
+  height: 300px;
+  width: 100%;
+  background-color: black;
+  .footerLinks {
+    ul {
+      padding-top: 3%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      bottom: 0;
+      li {
+        margin-top: 10px;
+      }
+    }
+    .footerLinkItems {
+      color: white;
+      letter-spacing: 0.15em;
+      font-family: $font-family;
+      text-decoration: none;
+    }
+  }
+  .footerLinkItems:hover {
+    color: orange;
+  }
+}
+
+@media all and (max-width: 1040px) {
+  .footerLinkItems {
+    font-size: 40px;
+  }
+}
+@media all and (min-width: 900px) {
+  .footerLinkItems {
+    font-size: 20px;
+  }
+}
+
+@media all and (max-width: 900px) {
+  .footerLinkItems {
+    font-size: 10px;
+  }
+}

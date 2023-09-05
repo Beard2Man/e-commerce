@@ -16,7 +16,7 @@ function Pants() {
 
   return (
     <section className="service-container container">
-      Pants
+      <div className="containerName">Pants</div>
       <div className="mainProductContainer row">
         <div className="main">
           <div className="productContainer">
@@ -24,7 +24,18 @@ function Pants() {
               {product.map((product) => (
                 <li hey={product.id}>
                   <link to={`/product/${product.id}`} />
-                  <img src={product.photos} alt={product.name} />
+                  <div className="d">
+                    <img
+                      src={product.photos}
+                      alt={product.name}
+                      className="img-front"
+                    />
+                    <img
+                      src={product.photos[2]}
+                      alt={product.name}
+                      className="img-back"
+                    />
+                  </div>
                   <h3>{product.name}</h3>
                   <p>${product.price}</p>
 
