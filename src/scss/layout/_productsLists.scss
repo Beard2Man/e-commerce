@@ -37,8 +37,12 @@
             button {
               margin-top: 30px;
             }
+            h4 {
+              font-size: small;
+              font-family: $font-family;
+            }
             h3 {
-              margin: 10px;
+              margin: 5px;
               font-family: $font-family;
             }
             p {
@@ -49,22 +53,23 @@
             }
 
             img {
+              cursor: pointer;
               height: 240px;
               width: 240px;
             }
 
-            .d {
+            .imgFlip {
               position: relative;
               display: inline-block;
             }
-            .d .img-back {
+            .imgFlip .img-back {
               top: 0;
               left: 0;
               position: absolute;
               display: none;
             }
           }
-          .d:hover .img-back {
+          .imgFlip:hover .img-back {
             display: inline;
             background-color: white;
           }

@@ -16,8 +16,10 @@ function Products() {
       <ul>
         {products.map((product) => (
           <li key={product.id}>
-            <img src={product.photos} alt={product.name} />
-            {product.name}-{product.price}
+            <a href={product.name}>
+              <img src={product.photos} alt={product.name} />
+              {product.name}-{product.price}
+            </a>
           </li>
         ))}
       </ul>

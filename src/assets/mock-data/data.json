@@ -4,7 +4,7 @@
       "id": "1",
       "name": "BELL HELMET BULLITT  VINTAGE COLLECTION STRIPES",
       "price": "25",
-      "Information": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas voluptatum officiis quibusdam et, vel adipisci iure! Molestiae cumque esse architecto iure asperiores perferendis eveniet pariatur saepe autem! Placeat, ipsa provident.",
+      "information": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas voluptatum officiis quibusdam et, vel adipisci iure! Molestiae cumque esse architecto iure asperiores perferendis eveniet pariatur saepe autem! Placeat, ipsa provident.",
       "category": "Helmets",
       "photos": [
         "https://i.imgur.com/JkQCz1X.jpeg",
@@ -18,7 +18,7 @@
       "id": "2",
       "name": "Hello",
       "price": "123",
-      "Information": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas voluptatum officiis quibusdam et, vel adipisci iure! Molestiae cumque esse architecto iure asperiores perferendis eveniet pariatur saepe autem! Placeat, ipsa provident.",
+      "information": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas voluptatum officiis quibusdam et, vel adipisci iure! Molestiae cumque esse architecto iure asperiores perferendis eveniet pariatur saepe autem! Placeat, ipsa provident.",
       "category": "Helmets",
       "photos": [
         "https://i.imgur.com/pQGvenq.jpeg",
@@ -32,7 +32,7 @@
       "id": "3",
       "name": "Hello",
       "price": "1563",
-      "Information": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas voluptatum officiis quibusdam et, vel adipisci iure! Molestiae cumque esse architecto iure asperiores perferendis eveniet pariatur saepe autem! Placeat, ipsa provident.",
+      "information": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas voluptatum officiis quibusdam et, vel adipisci iure! Molestiae cumque esse architecto iure asperiores perferendis eveniet pariatur saepe autem! Placeat, ipsa provident.",
       "category": "Helmets",
       "photos": [
         "https://i.imgur.com/MTlX40J.jpeg",
@@ -45,7 +45,7 @@
       "id": "4",
       "name": "GHelo",
       "price": "25",
-      "Information": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas voluptatum officiis quibusdam et, vel adipisci iure! Molestiae cumque esse architecto iure asperiores perferendis eveniet pariatur saepe autem! Placeat, ipsa provident.",
+      "information": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas voluptatum officiis quibusdam et, vel adipisci iure! Molestiae cumque esse architecto iure asperiores perferendis eveniet pariatur saepe autem! Placeat, ipsa provident.",
       "category": "Helmets",
       "photos": [
         "https://i.imgur.com/CdCCpio.jpeg",
@@ -58,7 +58,7 @@
       "id": "5",
       "name": "Hello",
       "price": "123",
-      "Information": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas voluptatum officiis quibusdam et, vel adipisci iure! Molestiae cumque esse architecto iure asperiores perferendis eveniet pariatur saepe autem! Placeat, ipsa provident.",
+      "information": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas voluptatum officiis quibusdam et, vel adipisci iure! Molestiae cumque esse architecto iure asperiores perferendis eveniet pariatur saepe autem! Placeat, ipsa provident.",
       "category": "Helmets",
       "photos": [
         "https://i.imgur.com/9tFKenT.jpeg",
@@ -71,7 +71,7 @@
       "id": "6",
       "name": "Hello",
       "price": "1563",
-      "Information": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas voluptatum officiis quibusdam et, vel adipisci iure! Molestiae cumque esse architecto iure asperiores perferendis eveniet pariatur saepe autem! Placeat, ipsa provident.",
+      "information": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas voluptatum officiis quibusdam et, vel adipisci iure! Molestiae cumque esse architecto iure asperiores perferendis eveniet pariatur saepe autem! Placeat, ipsa provident.",
       "category": "Helmets",
       "photos": [
         "https://i.imgur.com/Two5yff.jpeg",
@@ -85,7 +85,7 @@
       "id": "7",
       "name": "GHelo",
       "price": "25",
-      "Information": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas voluptatum officiis quibusdam et, vel adipisci iure! Molestiae cumque esse architecto iure asperiores perferendis eveniet pariatur saepe autem! Placeat, ipsa provident.",
+      "information": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas voluptatum officiis quibusdam et, vel adipisci iure! Molestiae cumque esse architecto iure asperiores perferendis eveniet pariatur saepe autem! Placeat, ipsa provident.",
       "category": "Helmets",
       "photos": [
         "https://i.imgur.com/wqi1na5.jpeg",
@@ -98,7 +98,7 @@
       "id": "8",
       "name": "Hello",
       "price": "123",
-      "Information": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas voluptatum officiis quibusdam et, vel adipisci iure! Molestiae cumque esse architecto iure asperiores perferendis eveniet pariatur saepe autem! Placeat, ipsa provident.",
+      "information": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas voluptatum officiis quibusdam et, vel adipisci iure! Molestiae cumque esse architecto iure asperiores perferendis eveniet pariatur saepe autem! Placeat, ipsa provident.",
       "category": "Helmets",
       "photos": [
         "https://i.imgur.com/x0o4iCO.jpeg",
@@ -111,7 +111,7 @@
       "id": "9",
       "name": "Hello",
       "price": "1563",
-      "Information": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas voluptatum officiis quibusdam et, vel adipisci iure! Molestiae cumque esse architecto iure asperiores perferendis eveniet pariatur saepe autem! Placeat, ipsa provident.",
+      "information": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas voluptatum officiis quibusdam et, vel adipisci iure! Molestiae cumque esse architecto iure asperiores perferendis eveniet pariatur saepe autem! Placeat, ipsa provident.",
       "category": "Helmets",
       "photos": [
         "https://i.imgur.com/v6qeqeG.jpeg",
@@ -124,7 +124,7 @@
       "id": "10",
       "name": "GHelo",
       "price": "25.00",
-      "Information": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas voluptatum officiis quibusdam et, vel adipisci iure! Molestiae cumque esse architecto iure asperiores perferendis eveniet pariatur saepe autem! Placeat, ipsa provident.",
+      "information": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas voluptatum officiis quibusdam et, vel adipisci iure! Molestiae cumque esse architecto iure asperiores perferendis eveniet pariatur saepe autem! Placeat, ipsa provident.",
       "category": "Helmets",
       "photos": [
         "https://i.imgur.com/YR3rGzZ.png",
@@ -134,9 +134,9 @@
     },
     {
       "id": "11",
-      "name": "BELL HELMET BULLITT  VINTAGE COLLECTION STRIPES",
+      "name": "BELL",
       "price": "250.00",
-      "Information": "",
+      "information": "HELMET BULLITT  VINTAGE COLLECTION STRIPES",
       "category": "Pants",
       "photos": [
         "https://i.imgur.com/DBW7GEu.jpg",
@@ -148,9 +148,9 @@
     },
     {
       "id": "12",
-      "name": "BELL HELMET BULLITT  VINTAGE COLLECTION STRIPES",
+      "name": "BELL",
       "price": "123",
-      "Information": "",
+      "information": "HELMET BULLITT  VINTAGE COLLECTION STRIPES",
       "category": "Pants",
       "photos": [
         "https://i.imgur.com/ndkyP3P.png",
@@ -162,9 +162,9 @@
     },
     {
       "id": "13",
-      "name": "BELL HELMET BULLITT  VINTAGE COLLECTION STRIPES",
-      "price": "1563",
-      "Information": "",
+      "name": "BELL",
+      "price": "250.00",
+      "information": "HELMET BULLITT  VINTAGE COLLECTION STRIPES",
       "category": "Pants",
       "photos": [
         "https://i.imgur.com/ulKc9xg.png",
@@ -175,9 +175,9 @@
     },
     {
       "id": "14",
-      "name": "GHelo",
-      "price": "25",
-      "Information": "",
+      "name": "BELL",
+      "price": "250.00",
+      "information": "HELMET BULLITT  VINTAGE COLLECTION STRIPES",
       "category": "Pants",
       "photos": [
         "https://i.imgur.com/09zKS14.jpg",
@@ -189,9 +189,9 @@
     },
     {
       "id": "15",
-      "name": "Hello",
-      "price": "123",
-      "Information": "",
+      "name": "BELL",
+      "price": "250.00",
+      "information": "HELMET BULLITT  VINTAGE COLLECTION STRIPES",
       "category": "Pants",
       "photos": [
         "https://i.imgur.com/MJ7hDBP.jpg",
@@ -203,9 +203,9 @@
     },
     {
       "id": "16",
-      "name": "Hello",
-      "price": "1563",
-      "Information": "",
+      "name": "BELL",
+      "price": "250.00",
+      "information": "HELMET BULLITT  VINTAGE COLLECTION STRIPES",
       "category": "Pants",
       "photos": [
         "https://i.imgur.com/Gx3PyTh.jpg",
@@ -217,9 +217,9 @@
     },
     {
       "id": "17",
-      "name": "GHelo",
-      "price": "25",
-      "Information": "",
+      "name": "BELL",
+      "price": "250.00",
+      "information": "HELMET BULLITT  VINTAGE COLLECTION STRIPES",
       "category": "Jackets",
       "photos": [
         "https://i.imgur.com/wfuB5z5.jpg",
@@ -233,7 +233,7 @@
       "id": "18",
       "name": "Hello",
       "price": "123",
-      "Information": "",
+      "information": "",
       "category": "Jackets",
       "photos": [
         "https://i.imgur.com/7u0WoY3.jpg",
@@ -246,7 +246,7 @@
       "id": "19",
       "name": "Hello",
       "price": "1563",
-      "Information": "",
+      "information": "",
       "category": "Jackets",
       "photos": [
         "https://i.imgur.com/TRN8YN4.jpg",
@@ -258,7 +258,7 @@
       "id": "20",
       "name": "GHelo",
       "price": "25",
-      "Information": "",
+      "information": "",
       "category": "Jackets",
       "photos": [
         "https://i.imgur.com/ruWAj0b.png",
@@ -272,7 +272,7 @@
       "id": "21",
       "name": "Hello",
       "price": "1563",
-      "Information": "",
+      "information": "",
       "category": "Jackets",
       "photos": [
         "https://i.imgur.com/qyYrIs1.jpg",
@@ -285,7 +285,7 @@
       "id": "22",
       "name": "GHelo",
       "price": "25",
-      "Information": "",
+      "information": "",
       "category": "Jackets",
       "photos": [
         "https://i.imgur.com/mchQZHe.png",

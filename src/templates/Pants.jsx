@@ -24,19 +24,22 @@ function Pants() {
               {product.map((product) => (
                 <li hey={product.id}>
                   <link to={`/product/${product.id}`} />
-                  <div className="d">
-                    <img
-                      src={product.photos}
-                      alt={product.name}
-                      className="img-front"
-                    />
-                    <img
-                      src={product.photos[2]}
-                      alt={product.name}
-                      className="img-back"
-                    />
+                  <div className="imgFlip">
+                    <a href={product.name}>
+                      <img
+                        src={product.photos}
+                        alt={product.name}
+                        className="img-front"
+                      />
+                      <img
+                        src={product.photos[2]}
+                        alt={product.name}
+                        className="img-back"
+                      />
+                    </a>
                   </div>
                   <h3>{product.name}</h3>
+                  <h4>{product.information}</h4>
                   <p>${product.price}</p>
 
                   <button className="addToCard">Add to card</button>
