@@ -1,8 +1,32 @@
 @import "../utils/variables";
 
-body {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  background-color: $primary-colour;
+// body {
+//   height: 100%;
+//   display: flex;
+//   flex-direction: column;
+//   background-color: $primary-colour;
+// }
+
+.container {
+  max-width: $small-container;
+  width: $small-container;
+  padding: 0;
+  margin: 0 auto;
+}
+
+@media all and (min-width: $large) {
+  .container {
+    max-width: $large-container;
+  }
+}
+@media all and (min-width: $extra-large) {
+  .container {
+    max-width: $extra-large-container;
+  }
+}
+
+@media all and (max-width: $medium) {
+  .container {
+    max-width: $medium;
+  }
 }

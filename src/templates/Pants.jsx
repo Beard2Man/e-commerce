@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
+import "../scss/base/_global.scss";
 import "../scss/layout/_productsLists.scss";
 
 function Pants() {
@@ -14,25 +15,21 @@ function Pants() {
 
   return (
     <section className="service-container container">
-      <div className="p1">
-        <h2>
-          Pants
-          <div className="mainProductContainer row">
-            <div className="main">
-              <div className="productContainer">
-                <ul>
-                  {product.map((product) => (
-                    <li hey={product.id}>
-                      <link to={`/product/${product.id}`} />
-                      <img src={product.photos} alt={product.name} />
-                      {product.name}-{product.price}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
+      Pants
+      <div className="mainProductContainer row">
+        <div className="main">
+          <div className="productContainer">
+            <ul>
+              {product.map((product) => (
+                <li hey={product.id}>
+                  <link to={`/product/${product.id}`} />
+                  <img src={product.photos} alt={product.name} />
+                  {product.name}-{product.price}
+                </li>
+              ))}
+            </ul>
           </div>
-        </h2>
+        </div>
       </div>
     </section>
   );
