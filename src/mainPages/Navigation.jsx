@@ -12,10 +12,22 @@ function Navigation() {
   const [tabs, setTabs] = useState([]);
   const [error, setError] = useState(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [selectedCategory, setSelectedCategory] = useState(null);
+
+  const handleCategorySelect = (category) => {
+    setSelectedCategory(category);
+  };
 
   const handleMenuToggle = () => {
     setIsMenuOpen(!isMenuOpen);
   };
+
+  // useEffect(() => {
+  //   let url = "http://localhost:8000/products";
+  //   if (selectedCategory) {
+  //     url += `?category=${selectedCategory}`;
+  //   }
+  // });
 
   useEffect(() => {
     axios
@@ -38,7 +50,9 @@ function Navigation() {
         <ul>
           {tabs.map((tab) => (
             <li key={tab.id}>
-              <a href={tab.url}>{tab.name}</a>
+              <a href={tab.url} onClick={() => handleCategorySelect(tab.name)}>
+                {tab.name}
+              </a>
             </li>
           ))}
         </ul>

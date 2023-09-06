@@ -1,28 +1,36 @@
 import React, { useEffect, useState } from "react";
+import { useParams, Link } from "react-router-dom";
 import axios from "axios";
 
 import "../scss/base/_buttons.scss";
 import "../scss/base/_global.scss";
 import "../scss/layout/_productsLists.scss";
 
-function Helmets() {
-  const [product, setProducts] = useState([]);
+function Category() {
+  const { category } = useParams();
+  const [products, setProducts] = useState([]);
+
   useEffect(() => {
     axios
-      .get("http://localhost:8000/products?category=Helmets")
-      .then((res) => setProducts(res.data))
-      .catch((err) => console.log(err));
-  }, []);
+      .get(`http://localhost:8000/products/${category}`)
+      .then((response) => {
+        console.log(response.data);
 
+        setProducts(response.data);
+      })
+      .catch((error) => {
+        console.error("Błąd zapytania:", error);
+      });
+  }, [category]);
   return (
     <section className="service-container container">
-      <div className="containerName">Pants</div>
+      <div className="containerName">{category}</div>
       <div className="mainProductContainer row">
         <div className="main">
           <div className="productContainer">
             <ul>
-              {product.map((product) => (
-                <li hey={product.id}>
+              {products.map((product) => (
+                <li key={product.id}>
                   <link to={`/product/${product.id}`} />
                   <div className="imgFlip">
                     <a href={`/product/${product.category}/${product.name}`}>
@@ -53,6 +61,26 @@ function Helmets() {
       </div>
     </section>
   );
+
+  // return (
+  //   <div>
+  //     <h2>
+  //       Products List: {category}
+  //       {products.name}
+  //     </h2>
+
+  //     <ul>
+  //       {products.map((category) => (
+  //         <li key={category.id}>
+  //           <a href={`/product/${category.id}`}>
+  //             <img src={category.photos} alt={category.name} />-{" "}
+  //             {category.price}
+  //           </a>
+  //         </li>
+  //       ))}
+  //     </ul>
+  //   </div>
+  // );
 }
 
-export default Helmets;
+export default Category;

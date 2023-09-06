@@ -8,8 +8,6 @@
     font-family: $font-family;
   }
   .mainProductContainer {
-    .row {
-    }
     .main {
       .productContainer {
         ul {
@@ -41,6 +39,16 @@
               font-size: small;
               font-family: $font-family;
             }
+            .wrapper {
+              padding: 0 20px;
+            }
+            .d1 {
+              overflow: hidden;
+              display: -webkit-box;
+              -webkit-line-clamp: 1;
+              -webkit-box-orient: vertical;
+            }
+
             h3 {
               margin: 5px;
               font-family: $font-family;

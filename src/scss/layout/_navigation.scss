@@ -11,6 +11,11 @@
   display: flex;
   height: 120px;
   box-sizing: border-box;
+  .logo {
+    img {
+      margin-right: 100%;
+    }
+  }
   a {
     width: 30%;
     font-family: $font-family;

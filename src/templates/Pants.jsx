@@ -9,7 +9,7 @@ function Pants() {
   const [product, setProducts] = useState([]);
   useEffect(() => {
     axios
-      .get("http://localhost:8000/products?category=Pants")
+      .get("http://localhost:8000/products")
       .then((res) => setProducts(res.data))
       .catch((err) => console.log(err));
   }, []);
@@ -25,7 +25,7 @@ function Pants() {
                 <li hey={product.id}>
                   <link to={`/product/${product.id}`} />
                   <div className="imgFlip">
-                    <a href={product.name}>
+                    <a href={`/product/${product.category}/${product.name}`}>
                       <img
                         src={product.photos}
                         alt={product.name}
@@ -39,7 +39,9 @@ function Pants() {
                     </a>
                   </div>
                   <h3>{product.name}</h3>
-                  <h4>{product.information}</h4>
+                  <div className="wrapper">
+                    <h4 className="d1">{product.information}</h4>
+                  </div>
                   <p>${product.price}</p>
 
                   <button className="addToCard">Add to card</button>

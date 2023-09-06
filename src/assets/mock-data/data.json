@@ -1,8 +1,53 @@
 {
-  "products": [
+  "sale": [
     {
       "id": "1",
-      "name": "BELL HELMET BULLITT  VINTAGE COLLECTION STRIPES",
+      "name": "Helmet1",
+      "price": "25",
+      "information": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas voluptatum officiis quibusdam et, vel adipisci iure! Molestiae cumque esse architecto iure asperiores perferendis eveniet pariatur saepe autem! Placeat, ipsa provident.",
+      "category": "Helmets",
+      "photos": [
+        "https://i.imgur.com/JkQCz1X.jpeg",
+        "https://i.imgur.com/xzwsvem.jpeg",
+        "https://i.imgur.com/7X9CBFf.jpeg",
+        "https://i.imgur.com/wwC9cI8.jpeg",
+        "https://i.imgur.com/geEZWy7.jpeg"
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Jeans",
+      "price": "250.00",
+      "information": "HELMET BULLITT  VINTAGE COLLECTION STRIPES",
+      "category": "Pants",
+      "photos": [
+        "https://i.imgur.com/DBW7GEu.jpg",
+        "https://i.imgur.com/6jSHg0d.jpg",
+        "https://i.imgur.com/PHIxJG6.jpg",
+        "https://i.imgur.com/eSXdJkC.jpg",
+        "https://i.imgur.com/NnT71zx.jpg"
+      ]
+    },
+    {
+      "id": "17",
+      "name": "BELL7",
+      "price": "250.00",
+      "information": "HELMET BULLITT  VINTAGE COLLECTION STRIPES",
+      "category": "Jackets",
+      "photos": [
+        "https://i.imgur.com/wfuB5z5.jpg",
+        "https://i.imgur.com/6oqc5xc.jpg",
+        "https://i.imgur.com/UsL3i1I.jpg",
+        "https://i.imgur.com/6NYpwTI.jpg",
+        "https://i.imgur.com/WHxdvbB.jpg"
+      ]
+    }
+  ],
+
+  "products_helmets": [
+    {
+      "id": "1",
+      "name": "Helmet1",
       "price": "25",
       "information": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas voluptatum officiis quibusdam et, vel adipisci iure! Molestiae cumque esse architecto iure asperiores perferendis eveniet pariatur saepe autem! Placeat, ipsa provident.",
       "category": "Helmets",
@@ -131,10 +176,12 @@
         "https://i.imgur.com/uERtWTi.png",
         "https://i.imgur.com/haDYfrN.png"
       ]
-    },
+    }
+  ],
+  "products_pants": [
     {
       "id": "11",
-      "name": "BELL",
+      "name": "Jeans",
       "price": "250.00",
       "information": "HELMET BULLITT  VINTAGE COLLECTION STRIPES",
       "category": "Pants",
@@ -148,7 +195,7 @@
     },
     {
       "id": "12",
-      "name": "BELL",
+      "name": "Jeans2",
       "price": "123",
       "information": "HELMET BULLITT  VINTAGE COLLECTION STRIPES",
       "category": "Pants",
@@ -162,7 +209,7 @@
     },
     {
       "id": "13",
-      "name": "BELL",
+      "name": "BELL3",
       "price": "250.00",
       "information": "HELMET BULLITT  VINTAGE COLLECTION STRIPES",
       "category": "Pants",
@@ -175,7 +222,7 @@
     },
     {
       "id": "14",
-      "name": "BELL",
+      "name": "BELL4",
       "price": "250.00",
       "information": "HELMET BULLITT  VINTAGE COLLECTION STRIPES",
       "category": "Pants",
@@ -189,7 +236,7 @@
     },
     {
       "id": "15",
-      "name": "BELL",
+      "name": "BELL5",
       "price": "250.00",
       "information": "HELMET BULLITT  VINTAGE COLLECTION STRIPES",
       "category": "Pants",
@@ -203,7 +250,7 @@
     },
     {
       "id": "16",
-      "name": "BELL",
+      "name": "BELL6",
       "price": "250.00",
       "information": "HELMET BULLITT  VINTAGE COLLECTION STRIPES",
       "category": "Pants",
@@ -214,10 +261,13 @@
         "https://i.imgur.com/VEgdkk8.png",
         "https://i.imgur.com/z96MB9H.jpg"
       ]
-    },
+    }
+  ],
+
+  "products_jackets": [
     {
       "id": "17",
-      "name": "BELL",
+      "name": "BELL7",
       "price": "250.00",
       "information": "HELMET BULLITT  VINTAGE COLLECTION STRIPES",
       "category": "Jackets",
