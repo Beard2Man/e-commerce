@@ -1,12 +1,13 @@
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Products from "./templates/Products";
+
 import Navigation from "./mainPages/Navigation";
 
 import Category from "./templates/Category";
 
-import Pants from "./templates/Pants";
 import Footer from "./templates/Footer";
+import Sale from "./templates/Sale";
+import ProductDetails from "./templates/ProductsDetail";
 
 function App() {
   return (
@@ -14,9 +15,16 @@ function App() {
       <div className="App">
         <div>
           <Navigation />
+          {/* <Sale /> */}
+
           <Routes>
-            <Route path="/" element={<Products />} />
+            {/* <Route path="/:category/id" element={<ProductDetails />} /> */}
+
             <Route path="/:category" element={<Category />} />
+            <Route
+              path="/:product/:category/:id"
+              element={<ProductDetails />}
+            />
             {/* <Route path="/contact" element={<Contact />} /> */}
           </Routes>
         </div>

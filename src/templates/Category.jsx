@@ -31,9 +31,9 @@ function Category() {
             <ul>
               {products.map((product) => (
                 <li key={product.id}>
-                  <link to={`/product/${product.id}`} />
+                  <Link to={`/product/${product.id}`} />
                   <div className="imgFlip">
-                    <a href={`/product/${product.category}/${product.name}`}>
+                    <a href={`/product/${category}/${product.id}`}>
                       <img
                         src={product.photos}
                         alt={product.name}
