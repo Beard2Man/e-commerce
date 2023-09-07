@@ -31,16 +31,24 @@ function ProductDetails() {
               <link to={`/product/${product.id}`} />
               <div className="imgFlip">
                 <a href={`/product/${category}/${product.id}`}>
-                  <img
+                  {product.photos.map((photo, index) => (
+                    <img
+                      key={index}
+                      src={photo}
+                      alt={`${product.name}-${index + 1}`}
+                      className={index === 0 ? "img-front" : "img-back"}
+                    />
+                  ))}
+                  {/* <img
                     src={product.photos}
                     alt={product.name}
                     className="img-front"
                   />
                   <img
-                    src={product.photos[2]}
+                    src={product.photos}
                     alt={product.name}
                     className="img-back"
-                  />
+                  /> */}
                 </a>
               </div>
               <h3>{product.name}</h3>
