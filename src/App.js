@@ -1,12 +1,14 @@
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
+import "../src/scss/base/_global.scss";
+
 import Navigation from "./mainPages/Navigation";
 
 import Category from "./templates/Category";
 
 import Footer from "./templates/Footer";
-import Sale from "./templates/Sale";
+import Home from "../src/mainPages/Home";
 import ProductDetails from "./templates/ProductsDetail";
 
 function App() {
@@ -25,7 +27,7 @@ function App() {
               path="/:product/:category/:id"
               element={<ProductDetails />}
             />
-            {/* <Route path="/contact" element={<Contact />} /> */}
+            <Route path="/" element={<Home />} />
           </Routes>
         </div>
       </div>

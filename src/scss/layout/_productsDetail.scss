@@ -1,0 +1,75 @@
+@import "../utils/variables";
+@import "../utils/mixins";
+.container {
+  ul {
+    list-style-type: none;
+  }
+  .product-img {
+    // justify-content: center;
+    margin: 100px;
+    display: flex;
+
+    .information {
+    }
+    .img-container {
+      float: right;
+      padding: 10px;
+    }
+    .img-container img {
+      height: 500px;
+    }
+    .product-small-img {
+      float: left;
+      img {
+        opacity: 0.6;
+        height: 92px;
+        margin: 10px 0;
+        cursor: pointer;
+        display: block;
+      }
+    }
+    .product-small-img img:hover {
+      opacity: 1;
+    }
+  }
+}
+@media all and (max-width: $medium) {
+  .product-img {
+    .information {
+      width: 100%;
+    }
+    flex-direction: column-reverse;
+    .img-container {
+      padding: 5px 10px;
+    }
+  }
+  .product-small-img {
+    display: flex;
+    .column {
+      margin: 0 10px;
+      width: 82px;
+      img {
+        margin: 0;
+      }
+    }
+  }
+}
+@media all and (min-width: 992px) {
+  .product-img ul li {
+    width: 25%;
+    margin: 30px auto;
+  }
+}
+
+@media all and (max-width: 992px) {
+  .product-img ul li {
+    width: 35%;
+    margin: 30px auto;
+  }
+}
+
+@media all and (max-width: 815px) {
+  .product-img ul li {
+    width: 66%;
+  }
+}

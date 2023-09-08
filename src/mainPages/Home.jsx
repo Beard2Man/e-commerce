@@ -1,27 +1,17 @@
-// import Navigation from "./Navigation";
-// import Footer from "../templates/Footer";
-// import { BrowserRouter, Route, Routes } from "react-router-dom";
+import bike from "../../src/assets/immutable/video/bike.mp4";
 
-// import Navigation from "./Navigation";
-// import Footer from "../templates/Footer";
-// import Category from "../templates/Category";
-// const Home = () => {
-//   return (
-//     <BrowserRouter>
-//       <div className="App">
-//         <div>
-//           <Navigation />
-//           {/* <Sale /> */}
-//           <Routes>
-//             {/* <Route path="/" element={<Sale />} /> */}
-//             <Route path="/:category" element={<Category />} />
-//             {/* <Route path="/contact" element={<Contact />} /> */}
-//           </Routes>
-//         </div>
-//       </div>
+import "../scss/layout/_video.scss";
 
-//       <Footer />
-//     </BrowserRouter>
-//   );
-// };
-// export default Home;
+function Home() {
+  return (
+    <div className="container">
+      <div className="bikeRun">
+        <div className="video-container">
+          <video src={bike} autoPlay loop muted></video>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Home;
