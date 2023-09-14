@@ -1,6 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
+import { CartContext } from "./CartContext";
 
 import "../scss/layout/_productsDetail.scss";
 
@@ -9,7 +10,7 @@ import "../scss/base/_global.scss";
 
 function ProductDetails() {
   const { category, id } = useParams();
-
+  const { addToCart } = useContext(CartContext);
   const [products, setProduct] = useState([]);
   const [selectedImg, setSelectedImg] = useState(null);
   useEffect(() => {
@@ -24,6 +25,10 @@ function ProductDetails() {
         console.log(response.data);
       });
   }, [category, id]);
+  const handleAddToCart = (product) => {
+    addToCart(product);
+    console.log("Dodano produkt do koszyka:", product);
+  };
 
   return (
     <div>
@@ -64,7 +69,12 @@ function ProductDetails() {
               </div>
               <p>${product.price}</p>
 
-              <button className="addToCard">Add to card</button>
+              <button
+                className="addToCard"
+                onClick={() => handleAddToCart(product)}
+              >
+                Add to card
+              </button>
             </li>
           ))}
         </ul>
