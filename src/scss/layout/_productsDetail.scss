@@ -21,6 +21,8 @@
     .product-small-img {
       float: left;
       img {
+        border: 1px solid black;
+        border-radius: 10px;
         opacity: 0.6;
         height: 92px;
         margin: 10px 0;

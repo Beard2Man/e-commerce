@@ -1,12 +1,13 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useContext } from "react";
 import { useParams, Link } from "react-router-dom";
 import axios from "axios";
-
+import { CartContext } from "./CartContext";
 import "../scss/base/_buttons.scss";
 import "../scss/base/_global.scss";
 import "../scss/layout/_productsLists.scss";
 
 function Category() {
+  const { addToCart } = useContext(CartContext);
   const { category } = useParams();
   const [products, setProducts] = useState([]);
 
@@ -22,6 +23,10 @@ function Category() {
         console.error("Błąd zapytania:", error);
       });
   }, [category]);
+  const handleAddToCart = (product) => {
+    addToCart(product);
+    console.log("Dodano produkt do koszyka:", product);
+  };
   return (
     <section className="service-container container">
       <div className="containerName">{category}</div>
@@ -52,7 +57,12 @@ function Category() {
                   </div>
                   <p>${product.price}</p>
 
-                  <button className="addToCard">Add to card</button>
+                  <button
+                    className="addToCard"
+                    onClick={() => handleAddToCart(product)}
+                  >
+                    Add to card
+                  </button>
                 </li>
               ))}
             </ul>
